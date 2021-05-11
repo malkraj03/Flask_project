@@ -30,4 +30,4 @@ if __name__ == "__main__":
     s.listen(5)
     clientsocket, address = s.accept()
     print(f"Connection from {address} has been established.")
-    app.run(host='0.0.0.0', port=5000)
+    app.run()
